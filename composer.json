@@ -25,17 +25,21 @@
             "email": "xaviqv@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "PanicHD\\PanicHD\\": "src"
         }
     },
 	"extra": {
+        "branch-alias": {
+            "dev-master": "0.22.0-dev"
+        },
 		"laravel": {
 			"providers": [
 				"PanicHD\\PanicHD\\PanicHDServiceProvider"
 			]
 		}
-	}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
