@@ -25,6 +25,7 @@
             "email": "xaviqv@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "PanicHD\\PanicHD\\": "src"
